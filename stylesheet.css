@@ -158,7 +158,7 @@ ul {
 
 
 #section2 h3 {
-    margin-top: 10px;
+    margin-top: 2em;
 }
 
 #movContainer {
@@ -180,7 +180,7 @@ ul {
 }
 
 #movContent {
-    display: flex;
+    display: inline-flex;
     flex-direction: column;
     justify-content: center;
     align-content: center;
@@ -190,18 +190,23 @@ ul {
     left: 50%;
     width: 100vw;
     transform: translate(-50%,-50%);
+    
 }
 
 #personalInfo {
+    width:100%;
     display: inline-flex;
     flex-direction: row;
     align-content: center;
     justify-content: center;
     align-items: center;
+    margin-bottom: 3em;
 }
 
 #dog {
     border-radius: 50%;
+    width:100%;
+    margin-bottom: 1em;
 }
 #section3 {
     width: 100vw;
