@@ -1,15 +1,15 @@
 # jaycheung1096.github.io
 
-#Project Name
+# Project Name
 Jay's Homepage
 
-#Skills
+# Skills
 html, css, js, jquery, bootstrap 4
 
-#Library
+# Library
 baguetteBox.js, baugeuetteBox.css, gallery-grid.css
 
-#Latest update
+# Latest update
 18/03/2018
 
 # Things wish to add later
