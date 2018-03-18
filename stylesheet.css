@@ -1,0 +1,255 @@
+head body {
+    border: 0;
+    margin: 0;
+}
+
+.nav-link:active {
+    opacity: .9;
+}
+
+.nav-item {
+    margin-right: 10px;
+}
+
+.nav-link:hover {
+    opacity: .9;
+}
+
+.btn {
+    background-color: ;
+    color: #fff;
+    border-radius: 30px;
+    font-weight: bold;
+    padding: 0.75rem 1.75rem;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+}
+
+.btn-lg {
+    padding: 1rem 2rem;
+    font-size: 0.85rem;
+}
+
+.navbar {
+    background: white;
+    opacity: 1;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar-brand {
+        font-size: 0.8rem;
+    }
+}
+
+ul {
+    list-style: none;
+}
+
+.navbar #links {
+    position: absolute;
+    top: 0;
+    right:0;
+    display: inline-flex;
+    justify-content:space-between;
+    align-items: center;
+    align-content: center;
+    z-index: 70;
+    height: auto;
+    width: 160px;
+    padding: 0;
+    margin-top: 18px;
+    border: 0; 
+}
+
+#header {
+    display: inline-flex;
+    margin:0;
+    border:0;
+}
+
+#links li {
+    float: right;
+    margin: 10px;
+    padding: 0;
+}
+
+#tweet {
+    padding: 4px 8px 4px 8px;
+    text-align: center;
+    background-color: #1b95e0;
+    border-radius: 3px;
+    height: 25px;
+    color: #fff;
+    font-size: 3px;
+    cursor: pointer;
+}
+
+#fshare {
+    padding: 4px 10px 5px 10px;
+    text-align: center;
+    background-color: darkorchid;
+    border-radius: 3px;
+    height: 25px;
+    color: #fff;
+    font-size: 3px;
+    cursor: pointer;
+    margin-right:15px; 
+}
+
+#fshare:hover {
+    opacity: 1;
+    background-color:purple;
+}
+
+#tweet:hover {
+    opacity: 1;
+    background-color: rgb(67, 108, 219);
+}
+
+#section1 {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('img/bg1.jpg');
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background-size: cover;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: 0;
+    border: 0;
+}
+
+#title {
+    animation: pulse 5s ;
+  }
+  
+@keyframes pulse {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+}
+
+#title {
+    font-size: 8vw;
+    font-family:  Verdana, Arial, Helvetica, sans-serif;
+}
+
+#section2 {
+    width: 100vw;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background-size: cover;
+    color: white;
+    margin: 0;
+    border: 0;
+    background: transparent;
+}
+
+
+#section2 h3 {
+    margin-top: 10px;
+}
+
+#movContainer {
+    width: 100vw;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+}
+
+#movContainer video {
+   min-width: 100%;
+   min-height: 100%;
+   position: absolute;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   z-index: -1;
+}
+
+#movContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100vw;
+    transform: translate(-50%,-50%);
+}
+
+#personalInfo {
+    display: inline-flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#dog {
+    border-radius: 50%;
+}
+#section3 {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background-size: cover;
+    background-image: url('img/bg3.jpg');
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#section4 {
+    width: 100vw;
+    background-image: url('img/bg4.jpg');
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background-size: cover;
+    background-color: pink;
+    color: black;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    opacity: .7;
+}
+
+#section4 .row {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center; 
+}
+
+#section4 .row p {
+   margin-left: 10px;
+   padding-top: 10px;
+}
+
+#section4 h3 {
+    margin-bottom: 20px;
+}
+
+
+
+
