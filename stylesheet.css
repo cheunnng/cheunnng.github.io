@@ -81,6 +81,7 @@ ul {
     color: #fff;
     font-size: .5em;
     cursor: pointer;
+    margin:0;
 }
 
 #fshare {
@@ -92,6 +93,7 @@ ul {
     font-size: .5em;
     cursor: pointer;
     margin-right:15px; 
+    margin-left:0;
 }
 
 #fshare:hover {
@@ -122,7 +124,7 @@ ul {
 }
 
 #title {
-    animation: pulse 5s ;
+    animation: pulse 5s;
   }
   
 @keyframes pulse {
