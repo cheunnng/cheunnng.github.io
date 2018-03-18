@@ -74,22 +74,22 @@ ul {
 }
 
 #tweet {
-    padding: 4px 8px 4px 8px;
+    padding: 5px 10px 5px 10px;
     text-align: center;
     background-color: #1b95e0;
     border-radius: 3px;
-    height: 25px;
+    height: ;
     color: #fff;
     font-size: 3px;
     cursor: pointer;
 }
 
 #fshare {
-    padding: 4px 10px 5px 10px;
+    padding: 5px 10px 5px 10px;
     text-align: center;
     background-color: darkorchid;
     border-radius: 3px;
-    height: 25px;
+    height: ;
     color: #fff;
     font-size: 3px;
     cursor: pointer;
