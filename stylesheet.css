@@ -74,12 +74,12 @@ ul {
 }
 
 #tweet {
-    padding: 5px 10px 5px 10px;
+    padding: .5em 1em .5em 1em;
     text-align: center;
     background-color: #1b95e0;
     border-radius: 3px;
     color: #fff;
-    font-size: 3px;
+    font-size: .5em;
     cursor: pointer;
 }
 
