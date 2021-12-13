@@ -1,7 +1,7 @@
 # cheunnng.github.io
 
 # Project Name
-Jay's Homepage
+Homepage
 
 # Skills
 html, css, js, jquery, bootstrap 4
